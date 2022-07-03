@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 kinoko=3
 takenoko=5
-message=['kinoo is wondarfull']
+message=['kinoo is wondarfull','takenoko is awesome!']
 @app.route('/')
 def top():
     return render_template('index.html', **vars())
